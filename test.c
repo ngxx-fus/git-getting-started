@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 
+
+///
+
 int main(int args, char** arg){
     printf("Hi from Nguyen Thanh Phu\n");
     if(strcmp(arg[1], "--info") == 0){
